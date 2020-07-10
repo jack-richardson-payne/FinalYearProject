@@ -1,0 +1,857 @@
+header {
+    overflow: hidden;
+    padding: 0.3%;
+    background-image:  linear-gradient(to right, #e6ffff, #b3ffff,#66ffff);
+    width: 100%;
+    position: fixed;
+    margin-top: -7%;
+    min-height: 4.9vw;
+    border-color: #bfbfbf;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    z-index: 2;
+    
+}
+@media all and (orientation:portrait) {
+        header{ 
+        overflow: hidden;
+        padding: 0.3%;
+        background-image:  linear-gradient(to right, #e6ffff, #b3ffff,#66ffff);
+        width: 100%;
+        position: fixed;
+        margin-top: -8.5%;
+        min-height: 4.9vw;
+        border-color: #bfbfbf;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        z-index: 2;
+       }
+   }
+
+.header-login{
+   float:right;
+   width: 17%;
+   padding-right: 5px;
+    
+}
+.header-login input{
+    float: left;
+    display: block;
+    font-size:0.9vw;
+    height: 1.2vw;
+    width: 70%;
+    font-family: 'Roboto', sans-serif; 
+    border:solid 1px #aacfe4;
+    margin-top: 5%;
+    margin-bottom: 2%;
+   
+}
+.header-login button{
+    margin-top: 5%;
+    border-radius: 5px;
+    float: right;
+    width: 20%;
+    height: 1.5vw;
+    font-size:0.8vw;
+    text-align: center;
+    background-color:  #f5f5f0;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    margin-right:2%;
+    
+}
+.header-login button:hover{
+    background-color:  #e0e0d1;
+}
+.header-buttons{
+    height: 100%;
+    padding: 0;
+}
+
+.header-buttons button{
+    margin-top: -0.3%;
+    margin-bottom: -0.3%;
+    display: block;
+    float: right;
+    height: 100%;
+    width: 5%;
+    text-align: center;
+    line-height: 2vw;
+    padding-top: 4.2vw;
+    border: none;
+    font-family: Impact, sans-serif;
+    font-size: 1.3vw;
+    background: url('../pictures/logout.png') no-repeat;
+    background-size: 60% 60%;
+    background-position-x: 30%;
+    background-position-y: 20%;
+    padding-bottom: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width:100%;
+
+    
+    
+   
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("../pictures/goal.jpg");  /*https://www.pexels.com/photo/evening-field-football-field-goal-399187/*/
+    background-position: center;
+    background-repeat: repeat-y;
+
+    
+}
+.Border-main {
+    
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+    max-width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #F8F8F8;
+    position: relative;
+    min-height: 100%;
+    border: 1px solid #bfbfbf;
+    border-radius: 25px;
+    margin-top:7%;
+    margin-bottom: 0.4%;
+    padding-bottom: 5%;
+    
+    
+}
+
+@media all and (orientation:portrait) {
+    .Border-main{ 
+        overflow-y: hidden; 
+        overflow-x: hidden; 
+        max-width:90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: #F8F8F8;
+        position: relative;
+        min-height: 100%;
+        border: 1px solid #bfbfbf;
+        border-radius: 25px;
+        margin-top:8.5%;
+        margin-bottom: 0.4%;
+        padding-bottom: 5%;
+   }
+}
+
+
+
+
+.Border-main h2{
+    
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+h1{
+    height: 100%;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    margin-left: 8%;
+    font-family: Impact, sans-serif;
+    font-size: 2.2vw;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    transform: scale(2,2);
+
+}
+.signup{
+    margin-top: 3%;
+}
+.signup h3{
+    margin-left: 40%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    
+}
+.signup input{
+    margin-left: 40%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    width: 20%;
+    height: 1.5vw;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.signup input:hover{
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.signup select:hover{
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.signup select{
+    margin-left: 40%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    width: 20%;
+    height: 1.5vw;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.signup button{
+    background-color:  #ffcc66;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-left: 46%;
+    width: 6%;
+    height: 2.2vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    
+}
+.signup button:hover{
+    background-color:  #ffaa00;
+}
+.errors p{
+    
+    
+    width: 100%;
+    text-align: center;
+    color:red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    float:left;
+}
+.pages-buttons{
+    float:left;
+    margin-left: 15%;
+    width:70%;
+   
+    margin-right: 15%;
+}
+.pages-buttons a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 28%;
+    height: 10%;
+    background-color: #ffb366;
+    text-align:center;
+    line-height: 8.5vw;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7vw;
+    font-weight: bold;
+}
+.pages-buttons a:hover{
+    background-color: #ff6600;
+}
+.searchbar {
+    display: block;
+    
+    width: 70%;
+    float:left;
+    margin-left:15%;
+    margin-right: 15%;
+    
+}
+.searchbar select{
+    float:left;
+    
+    height:3.2vw;
+    font-size: 1.9vw;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    border-radius:15px;
+    padding-left: 1%;
+    
+}
+.searchbar select:focus{
+    outline-width:0px;
+}
+.searchbar button{
+    font-family: 'Roboto', sans-serif;
+    height:3.2vw;
+    font-size: 1.9vw;
+    width: 14%;
+    float:right;
+    
+    background-color: #ffb366;
+    border: 1px solid black;
+    border-radius:15px;
+}
+.searchbar button:hover{
+    background-color: #ff6600;
+}
+.searchbar button:focus{
+    outline-width:0px;
+}
+.outTable {
+
+
+    border-collapse: collapse;
+    width:80%;
+    margin-top:0.005%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    float:left;
+    
+}
+.outTable th{
+    font-family: 'Roboto', sans-serif;
+    border:2px solid black;
+    font-weight: bold; 
+    font-size: 1.3vw;
+    background-color: white;
+    
+}
+.outTable td{
+    font-size: 1.2vw;
+    height: 1.8vw;
+    border-bottom:2px solid black;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    
+}
+.outTable tr{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    
+}
+.outTable tr:hover{
+    background-color: lightskyblue;
+}
+.outTable button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    height: 1.8vw;
+    font-size: 1vw;
+    text-align: center;
+    line-height: 1.8vw;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: lighter;
+
+    
+}
+.outTable button:hover{
+    background-color: lightskyblue;
+}
+.outTable button:focus{
+    background-color: green;
+}
+.undo-button {
+    width:100%;
+}
+.undo-button button{
+    font-family: 'Roboto', sans-serif;
+    height: 1.8vw;
+    margin-right: 10%;
+    margin-top:3%;
+    float: right;
+    font-size: 1.2vw;
+    background-color: #ffb366;
+    border: 1px solid black;
+    border-radius:15px;
+}
+.undo-button button:hover{
+    background-color: #ff6600;
+}
+footer{
+      
+    overflow: hidden;
+    padding: 0.3%;
+    background-image:  linear-gradient(to left, #e6ffff, #b3ffff,#66ffff);
+    
+    min-height: 5vw;
+    border-color: #bfbfbf;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px; 
+    
+}
+.foot {
+    font-size: 0.9vw;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+.headers h3{
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8vw;
+    color: black;
+    float:left;
+    width:50%;
+    margin-bottom: 20px;
+}
+.headers p{
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1vw;
+    color: black;
+    float:left;
+    width:80%;
+    
+    
+}
+.headers li{
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4vw;
+    color: black;
+    float:left;
+    width:80%;
+}
+.statsTable table{
+    background-color: #e6e6e6;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    
+}
+.statsTable th{
+    padding-top: 1%;
+    font-size: 1vw;
+    width: 10%;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    font-weight: bold; 
+    
+}
+.statsTable td{
+    font-size: 2.2vw;
+    height: 6.5vw;
+    width: 10%;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+.statsTable tr{
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+.changeBar{
+    float: left;
+    margin-left: 10%;
+    width: 60%;
+}
+.changeBar select{
+    height:2vw;
+    font-size: 1.3vw;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    border-radius:15px;
+    padding-left: 1%;
+    float:left;
+}
+.changeBar select:focus{
+    outline-width:0px;
+}
+.changeBar button{
+    font-family: 'Roboto', sans-serif;
+    min-height: 2vw;
+    font-size: 1.3vw;
+    background-color: #ffb366;
+    border: 1px solid black;
+    border-radius:15px;
+    float:left;
+}
+.changeBar button:hover{
+    background-color: #ff6600;
+}
+.statsTableLower table{
+    background-color: #e6e6e6;
+    margin-top: 2%;
+    
+    border-collapse: collapse;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    border: 2px solid black;
+    
+}
+.statsTableLower th{
+    padding-top: 1%;
+    font-size: 1vw;
+    width: 10%;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    font-weight: bold; 
+    
+}
+.statsTableLower td{
+    font-size: 2.2vw;
+    height: 6.5vw;
+    width: 10%;
+    color: black;
+    font-weight: bold;
+    
+}
+.statsTableLower tr{
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+.matches table{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-collapse: separate;
+    text-align: center;
+    background-color: white;
+    border-collapse: collapse;
+    border: 1px solid black;
+
+}
+.matches th{
+    border-right: 1px solid black;
+    
+    
+
+}
+
+
+.matches td{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7vw;
+    border-right: 1px solid black;
+    width: 10%;
+    height: 5vw;
+
+    
+}
+.changeBut form{
+    margin-left:10%;
+    width:25%;
+}
+.changeBut button{
+    overflow: hidden;
+    float:left; 
+    margin-top:5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+    background-color: #ffb366;
+    border: 1px solid black;
+    border-radius:15px;
+    height: 1.7vw;
+}
+.changeBut button:hover{
+    background-color: #ff6600;
+}
+
+.changeBut input{
+    float:left; 
+    margin-top:5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.changeBut input:hover{
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.changeBut select:hover{
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.reset a{
+    float:left; 
+    margin-left:45%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9vw;
+}
+.rotate-message{ 
+    display: none; 
+}
+
+@media all and (orientation:portrait) {
+ .rotate-message{ 
+     display: block; 
+     font-family: 'Roboto', sans-serif;
+     text-align: center;
+     color: red;
+     font-size: 3vw;
+    }
+}
+
+.jump {
+    float:left;
+    width:6.5%;
+    margin-left:-5%;
+    position: fixed;
+}
+
+.jump a{
+    float:left;
+    width: 100%;
+    min-height: 2vw;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    border-bottom:none;
+    padding:1%;
+    text-decoration: none;
+    font-size: 0.8vw;
+    color: black;
+    background-image:  linear-gradient(to right, #e6ffff, #b3ffff,#66ffff);
+    text-align: center;
+    line-height:2vw;
+    z-index: 2;
+}
+
+
+.jump a:hover{
+    background-image:  linear-gradient(to right,#66ffff, #00cccc);
+}
+
+.bar {
+    margin-left:2%;
+    margin-right:2%;
+    width:96%;
+}
+.barbut{
+    width:80%;
+    padding-left:40%;
+    padding-right: 40%;
+    
+}
+.bar button{
+    width:12%;
+    margin-top:1%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+    background-color: #ffb366;
+    border: 1px solid black;
+    border-radius:15px;
+    min-height: 2.1vw;
+}
+.bar button:hover{
+    background-color: #ff6600;
+}
+
+.matchHead {
+    margin-left:15%;
+    margin-right:15%;
+    width:70%;
+    margin-top:2%;
+}
+
+.matchHead table{
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.8vw;
+    border-collapse: collapse;
+
+    
+
+
+}
+.matchHead tr{
+    width: 100%;
+}
+
+.matchHead tr:hover{
+    background-color: lightskyblue;
+}
+
+.matchHead th{
+    width: 20%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color:#F8F8F8;
+    
+    border-bottom: 5px solid black;
+}
+
+.matchHead td{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 1.3vw;
+    border-bottom: 1px solid black;
+    padding-bottom: 2%;
+}
+
+.matchHead h1{
+    width:85%;
+    text-align: center;
+    font-size: 1.5vw;
+    margin-bottom: 5%;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.return a{
+    margin-left:15%;
+    margin-top: 5%;
+    display: block;
+    width: 10%;
+    min-height:2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8vw;
+    background-color: #ffb366;
+    border: 1px solid black;
+    border-radius:15px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    float: left;
+}
+
+.return a:hover{
+    background-color: #ff6600;
+
+}
+
+.adder {
+    margin-top: 5%;
+    float: right;
+    height:30%;
+    width: 15%;
+    margin-right:15%;
+}
+
+.adder button{
+    font-size: 1.8vw;
+    background-color: #ffb366;
+    border: 1px solid black;
+    border-radius:15px;
+    width: 100%;
+    height:100%;
+}
+
+.adder button:hover{
+    background-color: #ff6600;
+
+}
+
+.btn-minimize {
+    width: 4%;
+    height: 2vw;
+    float: left;
+    margin-left: 10%;
+    margin-top: 1%;
+    border: 1px solid black; 
+    background-color: #4ed34e;
+    font-size: 1.7vw;
+    padding: 0;
+}
+.btn-minimize:hover{
+    background-color: green;
+}
+
+.jumpDel{
+    float:left;
+    position: fixed;
+    width: 3.2%;
+    font-size: 1vw;
+    font-family: 'Roboto', sans-serif;
+    margin-left: -5%;
+}
+
+.followTable {
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin-top: -32%;
+   
+}
+
+.followTable p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1vw;
+    color: black;
+    float:left;
+    width:100%;
+    
+}
+
+.followTable table{
+    float:left;
+    width:80%;
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    
+}
+
+.followTable th{
+    text-align: left;
+    font-size: 1.1vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left:0.5%;
+    border-bottom: 1px solid black;
+    
+}
+
+.followTable td{
+    font-size: 0.9vw;
+    padding-top: 2%;
+    padding-left:1%;
+    padding-bottom: 1%;
+}
+
+.followTable tr {
+    border-bottom: 1px solid black;
+}
+
+.followTable button{
+    background: url('../pictures/unfollow.png') no-repeat; /*https://publicdomainvectors.org/en/free-clipart/Remove-symbol/61574.html */
+    background-size: 80% 80%;
+    width:100%;
+    height:2vw;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    border: none;
+    background-color: #ffb366;
+    border: 1px solid black;
+}
+
+.followTable button:hover{
+    background-color: #ff6600;
+}
+.favBut button{
+    height:2.1vw;
+    width: 92%;
+    margin-left:1%;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid black;
+    float: right;
+}
+
+.favBut button:hover{
+    background-color: transparent;
+}
+/* if stylesheet doesnt load make alter version number on header.php /
+
+
